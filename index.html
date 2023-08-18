@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Repasse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <img src="imagens/1.png" alt="logo2">
+        <h1>Calculadora de Repasse Salt Mais</h1>
+        <img src="imagens/2.png" alt="logo">
+        
+    
+    </header>
+    <main>
+        <form>
+                <label for="ivalor">Valor do Empréstimo</label>
+                <input type="number" name="" id="ivalor" placeholder="Ex:10000" value="">
+                <span class="material-symbols-outlined" id="icon1">
+                    payments
+                    </span>
+
+            <label for="itaxa">Taxa vendida</label>
+            <input type="number" name="" id="itaxa" placeholder="Tx de juros">
+            <span class="material-symbols-outlined" id="icon2">
+                heap_snapshot_large
+                </span>
+
+            <label for="iprazo">Prazo</label>
+            <input type="number" name="" id="iprazo" placeholder="Não precisa do 'x'">
+            <span class="material-symbols-outlined" id="icon4">
+                playlist_add
+                </span>
+
+            <label for="itaxa2">Taxa Repasse</label>
+            <input type="number" name="" id="itaxa2" placeholder="Tab de Comissão">
+            <span class="material-symbols-outlined" id="icon3">
+                heap_snapshot_large
+                </span>
+            
+
+            <section id="ibottons">
+                <input type="button" value="Calcular" id="ibutton1">
+                <input type="button" value="Limpar" id="ibutton2">
+            </section>
+
+        </form>
+        <p id="iresult">
+        </p>
+    </main>
+    <footer>
+        <p>Projeto feito por Welington Pereira</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --azul: #00539E;
+    --amarelo: #FFE802;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: var(--amarelo);
+    color: var(--azul);
+    text-align: center;
+    font-size: 14px;
+}
+header img{
+    height: 50px;
+    width: auto;
+}
+main{
+    height: 80vh;
+    background-color: #FFE802;
+}
+main form{
+  width: 300px;
+}
+main form input{
+margin-bottom: 15px;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+border: solid 3px;
+}
+main form input:hover{
+    border: solid 3px #00539E;
+    outline-color: #00539E;
+    }
+main form input:active{
+        border: solid 3px #00539E;
+        outline-color: #012f57;
+        }
+
+main form label{
+margin-bottom: 5px;
+font-size: 18px;
+}
+#ibutton1{
+    background-color: var(--azul);
+    color: var(--amarelo);
+    border-color: var(--azul);
+}
+#ibutton1:active{
+    border-color: var(--amarelo);
+}
+#ibutton2{
+    background-color: var(--azul);
+    color: var(--amarelo);
+    border-color: var(--azul);
+}
+#ibutton2:active{
+    border-color: var(--amarelo);
+}
+#ivalor{
+position: relative;
+}
+#icon1{
+position: absolute;
+margin-bottom: 290px;
+margin-right: 150px;
+}
+#icon2{
+    position: absolute;
+margin-bottom: 125px;
+margin-right: 150px;
+}
+#icon3{
+    position: absolute;
+    margin-bottom: -205px;
+    margin-right: 150px;
+}
+#icon4{
+    position: absolute;
+    margin-bottom: -40px;
+    margin-right: 150px;
+}
+#iresult{
+    text-align: center;
+
+    color: #00539E;
+    font-weight: bolder;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 3px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 10vh;
+    background-color: var(--amarelo);
+    text-align: center;
+    color: var(--azul);
+    font-size: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50vw;
+    margin: auto;
+    border-radius: 20px;
+}
